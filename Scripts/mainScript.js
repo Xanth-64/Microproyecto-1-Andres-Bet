@@ -3,17 +3,17 @@ const botones = document.querySelectorAll(".botonCarrusel");
 const imagenesNum = 5;
 let imagenActual = 1;
 let mover = 0;
-
+let displacement = 100
 botones.forEach( boton => {
     boton.addEventListener("click", event =>{
         if (event.target.id === "back"){
             if(imagenActual != 1){
                 imagenActual--;
                 if(imagenActual === 2){
-                    mover += 600;
+                    mover += displacement;
                 }
                 else{
-                    mover += 600;
+                    mover += displacement;
                 }
                 
 
@@ -23,16 +23,16 @@ botones.forEach( boton => {
             if(imagenActual != imagenesNum){
                 imagenActual++;
                 if(imagenActual === 1){
-                    mover -= 600;
+                    mover -= displacement;
                 }
                 else{
-                    mover -= 600;
+                    mover -= displacement;
                 }
 
                 
             }
         }
-        imagenes.style.transform = `translateX(${mover}px)`;
+        imagenes.style.transform = `translateX(${mover}vw)`;
     });
 });
 

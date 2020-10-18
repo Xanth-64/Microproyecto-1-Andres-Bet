@@ -48,6 +48,7 @@ nav{
 }
 .Carrusel img{
     height: 100vh;
+    width: 100vw;
     margin-left: 0;
     margin-top: 0;
 }
@@ -124,8 +125,14 @@ nav{
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    width: 100%;
 }
-
+.proyectLinkImage a{
+    width: 75%
+}
+.proyectLinkImage img{
+    width: 100%;
+}
 .mainAboutContent{
     display: flex;
 }
@@ -162,7 +169,7 @@ nav{
 .bar-column{
     background-color: #17F0F0;
     margin: 0px 5px;
-    color: #F2FEFE;
+    color: #000;
     font-family: "Be Vietnam";
     font-size: 12px;
     text-align: center;
@@ -172,6 +179,7 @@ nav{
 }
 :hover.bar-column{
     background-color:#0942df;
+    color: #F2FEFE;
     opacity: 0.85;
 }
 
