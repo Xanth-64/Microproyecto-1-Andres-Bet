@@ -95,7 +95,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Darker Grotesque";
+    font-family: "Mansalva";
     font-size: 28px;
     margin: 15px 0px;
 }
@@ -123,4 +123,23 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.mainAboutContent{
+    display: flex;
+}
+.paragraph-container{
+    font-family: "Be Vietnam";
+    font-size: 12px;
+    flex: 1;
+    flex-basis: 75%;
+    align-self: center;
+}
+.image-companion{
+    flex: 0;
+    flex-basis: 25%;
+}
+.image-companion img{
+    height: 100%;
+    width: 100%;
 }
