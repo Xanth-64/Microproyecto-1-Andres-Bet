@@ -134,8 +134,54 @@
         <section id = "Skills">
         </section>
         <section id = "ContactMe">
-
+            <h1 class="sectionTitle">Contact Me</h1>
+            <div id = "formBox">
+                <form id = "userMessage"  name = "userMessage" onsubmit="return formSubmit()">
+                    <label for = "Name">Enter Your Name:</label>
+                    <input type="text" id = "Name" name="Name" pattern="[A-Za-z]+" minlength="2" required>
+                    <label for = "Email">Enter your E-Mail</label>
+                    <input type="email" id="Email" name = "Email" required>
+                    <label for = "Message">Leave me a Message!</label>
+                    <textarea name="Message" id="Message" required></textarea>
+                    <input type="submit" value = "Submit" pattern="[A-Za-z0-9]+">
+                </form>
+            </div>
         </section>
+        <footer>
+            <div class = "personalData">
+                <div class="dataLogo">
+                    <a href = "https://api.whatsapp.com/send?phone=584128410707" target="_blank"><img src="Styles\Images\icons8-whatsapp.svg"></a>
+                </div>
+                <div class="dataInfo">
+                    +58 412-8410707
+                </div>
+            </div>
+            <div class = "personalData">
+                <div class="dataLogo">
+                    <img src="Styles\Images\icons8-important-mail.svg">
+                </div>
+                <div class="dataInfo">
+                    30258079@correo.unimet.edu.ve
+                </div>
+            </div>
+            <div class = "personalData">
+                <div class="dataLogo">
+
+                    <a href="https://instagram.com/andreseloy2803?igshid=17hhje8whd7al" target="_blank"><img src="Styles\Images\icons8-instagram.svg"></a>
+                </div>
+                <div class="dataInfo">
+                    @andreseloy2803
+                </div>
+            </div>
+            <div class = "personalData">
+                <div class="dataLogo">
+                    <a href = "https://twitter.com/andresb97845051/" target = "_blank"><img src="Styles\Images\icons8-twitter.svg"></a> 
+                </div>
+                <div class="dataInfo">
+                    @AndresB97845051
+                </div>
+            </div>
+        </footer>
     </main>
     <script src="Scripts\mainScript.js"></script>
 </body>

@@ -66,3 +66,11 @@ for (let prop in andres){
     elemento = document.getElementById(prop);
     elemento.style.height = `${300 * andres[prop] / 100}px`;
 }
+
+function formSubmit() {
+    let name = document.forms["userMessage"]["Name"].value;
+    let mail = document.forms["userMessage"]["Email"].value;
+    let message = document.forms["userMessage"]["Message"].value;
+    console.log(name + '\n' + mail + '\n' + message)
+    alert("“Su solicitud ha sido enviada")
+}
