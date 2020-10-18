@@ -12,6 +12,7 @@ nav{
     background-color: #53F1F1;
     width: 100%;
     top: 0px;
+    z-index: 10;
 }
 
 .navButton{
@@ -32,7 +33,7 @@ nav{
     text-decoration: none;
 }
 #Hero{
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -54,5 +55,24 @@ nav{
     background-color: #706BF4;
     border: blueviolet 1px solid;
     border-radius: 60%;
-    
+    color: #F2FEFE;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+    font-family: "Be Vietnam";
+}
+
+#back{
+    left: 10px;
+}
+#forward{
+    right: 10px;
+}
+:hover.botonCarrusel{
+    opacity: 0.80;
 }
