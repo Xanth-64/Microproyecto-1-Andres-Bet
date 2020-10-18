@@ -35,3 +35,34 @@ botones.forEach( boton => {
         imagenes.style.transform = `translateX(${mover}px)`;
     });
 });
+
+const skills = document.getElementById("Skills")
+let andres = {
+    HTML : 10,
+    CSS : 100,
+    JavaScript : 100,
+    Figma : 20,
+    React : 50,
+    Scrum : 30,
+}
+let count = 0;
+let barAttributes = ""
+for (let prop in andres){
+    barAttributes += `<div class = "bar-column" id = "${prop}"><span>${prop}\n ${andres[prop]}%</span></div>\n`
+    count++;
+}
+
+skills.innerHTML = `<h1 class="sectionTitle">My Skills</h1>` +
+`<div id = "bar-Chart">` +
+  barAttributes +               
+`</div>`;
+const barritas = document.querySelectorAll(".bar-column")
+const barras_width = (500 - (5 * count)) / count
+    for (let index = 0; index < barritas.length; index++) {
+        const element = barritas[index];
+        element.style.width = `${barras_width}px`;
+    }
+for (let prop in andres){
+    elemento = document.getElementById(prop);
+    elemento.style.height = `${300 * andres[prop] / 100}px`;
+}

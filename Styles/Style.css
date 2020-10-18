@@ -150,3 +150,26 @@ nav{
     display: flex;
     justify-content: center;
 }
+
+#bar-Chart {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+.bar-column{
+    background-color: #17F0F0;
+    margin: 0px 5px;
+    color: #F2FEFE;
+    font-family: "Be Vietnam";
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.75;
+
+}
+:hover.bar-column{
+    background-color:#0942df;
+    opacity: 0.85;
+}
