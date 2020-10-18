@@ -76,3 +76,51 @@ nav{
 :hover.botonCarrusel{
     opacity: 0.80;
 }
+
+.sectionTitle{
+    width: 100%;
+    height: 85px;
+    background-color: #A7FB56;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin: 10px 0px;
+    font-family: "Euphoria Script";
+}
+.articleTitle{
+    height: 70px;
+    background-color: #C9FC99;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Darker Grotesque";
+    font-size: 28px;
+    margin: 15px 0px;
+}
+.articleSubtitle{
+    margin: 10px;
+    font-size: 15px;
+    font-family:"Be Vietnam";
+
+}
+.exp-article ul{
+    list-style-type: circle;
+    display: block;
+    font-size: 12px;
+    font-family: "Be Vietnam";
+    padding: 15px;
+
+}
+.date {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "Be Vietnam";
+    padding: 20px;
+}
+.proyectLinkImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
