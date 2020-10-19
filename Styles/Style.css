@@ -22,7 +22,7 @@ nav{
     align-items: center;
     justify-content: center;
     font-family: "Darker Grotesque", "Helvetica";
-    font-size: 22px;
+    font-size: 30px;
     color: #F2FEFE;
 }
 :hover.navButton {
@@ -59,13 +59,16 @@ nav{
     color: #F2FEFE;
     font-weight: bold;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 28px;
     height: 35px;
     width: 35px;
     opacity: 0.5;
     position: absolute;
     z-index: 1;
     font-family: "Be Vietnam";
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #back{
@@ -85,7 +88,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 50px;
+    font-size: 80px;
     margin: 10px 0px;
     font-family: "Euphoria Script";
 }
@@ -97,25 +100,25 @@ nav{
     align-items: center;
     justify-content: center;
     font-family: "Mansalva";
-    font-size: 28px;
+    font-size: 40px;
     margin: 15px 0px;
 }
 .articleSubtitle{
     margin: 10px;
-    font-size: 15px;
+    font-size: 28px;
     font-family:"Be Vietnam";
 
 }
 .exp-article ul{
     list-style-type: circle;
     display: block;
-    font-size: 12px;
+    font-size: 20px;
     font-family: "Be Vietnam";
-    padding: 15px;
+    padding: 30px;
 
 }
 .date {
-    font-size: 13px;
+    font-size: 24px;
     font-weight: bold;
     font-family: "Be Vietnam";
     padding: 20px;
@@ -138,7 +141,7 @@ nav{
 }
 .paragraph-container{
     font-family: "Be Vietnam";
-    font-size: 12px;
+    font-size: 20px;
     flex: 1;
     flex-basis: 75%;
     align-self: center;
@@ -171,7 +174,7 @@ nav{
     margin: 0px 5px;
     color: #000;
     font-family: "Be Vietnam";
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
     cursor: pointer;
     opacity: 0.75;
@@ -194,7 +197,7 @@ nav{
     flex-wrap: wrap;
     flex-direction: column;
     font-family: "Be Vietnam";
-    font-size: 18px;
+    font-size: 26px;
     align-items: center;
 }
 #userMessage input, #userMessage label{
@@ -218,7 +221,7 @@ footer{
     justify-content: space-between;
     background-color: #A7A3F7;
     font-family: "Mansalva";
-    font-size: 18px;
+    font-size: 24px;
 }
 .personalData{
     display: flex;
